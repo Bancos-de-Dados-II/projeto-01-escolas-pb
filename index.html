@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Escolas - Paraíba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="filtro-card">
+        <label>Mínimo de escolas:</label>
+        <input type="range" id="filtroSlider" min="0" max="300" value="0" step="5">
+        <span id="valorSlider">0</span>
+        <button id="aplicarFiltro">Filtrar mapa</button>
+    </div>
+    
+    <div class="info-card" id="infoPanel">
+        <b>Mapa de escolas por município (PB)</b><br>
+        Clique em um município para ver detalhes.
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
