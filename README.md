@@ -2,7 +2,7 @@
 
 **Aplicação interativa** que exibe um mapa temático com a distribuição de escolas por município no estado da Paraíba.
 
-🔗 **Acesse a aplicação:** [bancos-de-dados-ii.github.io/projeto-01-escolas-pb](https://bancos-de-dados-ii.github.io/projeto-01-escolas-pb/)
+🔗 Acesse a aplicação: [clique aqui](https://bancos-de-dados-ii.github.io/projeto-01-escolas-pb)
 
 ---
 
