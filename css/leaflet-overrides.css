@@ -1,0 +1,78 @@
+.leaflet-control-container {
+    font-family: inherit;
+}
+
+.leaflet-control {
+    box-shadow: var(--shadow-md) !important;
+    border-radius: 12px !important;
+    border: 1px solid var(--border-light) !important;
+    background: white !important;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    background-color: white !important;
+    color: var(--primary) !important;
+    font-size: 16px !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    border-radius: 8px !important;
+}
+
+.leaflet-control-zoom-in:hover,
+.leaflet-control-zoom-out:hover {
+    background-color: var(--bg-lighter) !important;
+}
+
+/* Geocoder (plugin de busca por endereço) */
+.leaflet-control-geocoder {
+    background: white !important;
+}
+
+.leaflet-control-geocoder-form input {
+    background: white !important;
+    border: 1px solid var(--border-light) !important;
+    border-radius: 10px !important;
+    padding: 10px 12px !important;
+    font-size: 0.9rem !important;
+    font-family: inherit !important;
+    color: var(--text-primary) !important;
+    width: 240px !important;
+}
+
+.leaflet-control-geocoder-form input::placeholder {
+    color: var(--text-secondary) !important;
+}
+
+.leaflet-control-geocoder-form input:focus {
+    outline: none !important;
+    border-color: var(--primary-light) !important;
+    box-shadow: 0 0 0 3px rgba(44, 125, 160, 0.1) !important;
+}
+
+.leaflet-control-geocoder-form button {
+    background: var(--primary) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 10px 14px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    transition: background var(--transition-fast) !important;
+    margin-left: 6px !important;
+}
+
+.leaflet-control-geocoder-form button:hover {
+    background: var(--primary-light) !important;
+}
+
+.leaflet-control-geocoder-result {
+    background: white !important;
+    border: 1px solid var(--border-light) !important;
+    border-radius: 10px !important;
+}
+
+.leaflet-control-geocoder-form {
+    border-radius: 4px;
+}
